@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+head,h1 {
+    background-color: black;
+    margin: 9px;
+    padding: 8px;
+}
+
+main {
+    position: relative;
+    top: -160px;
+}
+
+h1,header {
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:lighter;
+    font-style: normal;
+    text-align: center;
+    font-size: 30px;
+}
+
+header nav a {
+    display: inline;
+    margin-left: 16px;
+    font-size:  18px;
+    color: white;
+}
+
+header nav a {
+    margin-left: 10px;
+    position: relative;
+    bottom: 70px;
+    right: 400px;
+    text-decoration: none;
+}
+
+.container head{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.Marketplace{
+    font-family: "Oswald", sans-serif;
+    font-weight:lighter;
+    font-size: 15px;
+    margin-top: -190px;
+    text-align: center;
+    
+}
+
+.Marketplace img {
+        width: 25vw; /* Define a largura da imagem como 50% da largura da tela */
+        height: auto; /* Mantém a proporção da imagem */
+        margin-top: 30px;
+    }
+
+#botao {background-color: black;
+color: white;
+border-radius: 10px;
+font-size: 15px;
+margin: auto;
+width: 250px;
+height: 30px;
+    }
+
+main {
+    margin: 100px
+}
+
+ul  {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+
+li {
+    margin-left: 10px;
+}
+
+li {
+    margin: 0 auto;
+}
+
+#imagem img {
+        max-width: 7900px; /* sets a maximum width */
+        max-height: 450px; /* sets a maximum height */  
+}
+
+
+#imagem:hover,#Portifólio:hover {
+    filter:sepia(50);
+    transition: all 0.9s ease-in-out;
+    transform: translateY(-5px);
+    opacity: 93%;
+}
+
+#Portifólio{
+    position: relative;
+    z-index: 0;
+    font-family: "Assistant", sans-serif;
+    font-weight:00;
+    font-size: 30px;
+    margin-top: 40px;
+    text-align: center;
+    top: -340px;
+    color: white;
+    opacity: 0; /* Começa invisível */
+transition: opacity 0.5s ease-in-out;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    opacity: 85%;
+    font-family: "Assistant", sans-serif;
+}
+
+#Portifólio{
+    opacity: 1; /* Aparece quando o mouse passa por cima */
+    filter: none; /* Remove o filtro sepia */
+    margin: 20px;
+    font-size: 100px;
+    color: black;
+    opacity: 95%;
+}
+
+#Portifólio:not(:hover) {
+    opacity: 0; /* Desaparece quando o mouse sai */
+}
+
+#Portifólio, #imagem img {
+    margin-top: 20px;
+    
+}
+
+#adobe  {
+    width: 10%;
+    height: auto;
+    object-fit: contain;
+    position: relative;
+    top: 20px;
+    right: 20px;
+}
+
+.About p img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.About p {
+    flex: auto;
+    padding-left: 20px;
+    text-align: justify;
+    margin-left: 500px;
+    margin-right: 90px;
+    position: relative;
+    bottom: 600px;
+}
+
+.About img {
+    flex: 1;
+    max-width: 35%;
+    position: relative;
+    left: 10px;
+    margin: 50px;
+}
+
+
+.About p{
+    font-size: 40px;
+    text-align: center;
+}
+
+.About P {
+    font-family: "Oswald", sans-serif;
+    font-weight:lighter;
+    font-size: large;
+}
+
+#about {
+    margin-top: 55px;
+}
+
+.About strong {
+    font-weight: 400;
+}
+
+.adobe {
+    margin-top: 120px;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 150px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: black;
+}
+
+.contato {
+    margin: 80px;
+}
+
+#contato .contato {
+    position: relative;
+    top: 500px;
+}
+
+.About {
+    margin-bottom: -500px;
+}
+
+
+#contato {
+    position: relative;
+}
+
+.About p {
+    margin-left: 600px;
+    font-size: 25px;
+    top: -750px;
+}
+
+footer p {
+    background-color: black;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+}
+
+footer {
+    margin-top: 200px;
+}
+
+.contato {
+    margin-top: -900px;
+}
+
+form {
+    margin: 120px;
+    margin-top: 50px;
+}
